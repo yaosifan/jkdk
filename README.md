@@ -4,7 +4,11 @@
 
 目前发现打卡界面记录**IP地址**，不过仍能打卡成功，尚不清楚有何影响。请谨慎使用。
 
-注意：项目启用后60天无更新时，Actions功能会**自动关闭**，届时需要再次手动开启。
+1. 注意：项目启用后60天无更新时，Actions功能会**自动关闭**，届时需要再次手动开启。
+
+2. 原先的微信接口失效了，现已更换新的微信接口，见最下面。
+
+3. 因接口更新，简单的post方式可能会很麻烦，可能学校后台一周变次token。**重构代码**计划提前😭
 
 ---
 
@@ -41,7 +45,7 @@
 ### 原先微信接口已经失效，替换为新的微信接口
 ### 使用方法
 1. 扫描此微信二维码并关注微信公众号
-[二维码](http://wxpusher.zjiecode.com/api/qrcode/nublfXxSDMf21fizk3NQntHrtvKnjlrITfUWKroLTNn5oU7Pm4V7qoRAfWdd2jW6.jpg)
+[二维码](http://wxpusher.zjiecode.com/api/qrcode/hNHQXsGvGguORhwBHItWlaqUYvs79Ii59RpFN5YmuDIBOiO8YLQlqHd051TBfmeO.jpg)
 
-2. 在右下角”我的“这一栏中把UID替换到原先secrets中的微信key中即可
+2. 关注后在右下角”我的“这一栏中把UID替换到原先secrets中的微信key中即可，除此之外，关注后会有消息通知uid的值。
 
