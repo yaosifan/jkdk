@@ -114,7 +114,7 @@ class Jkdk:
         data = self.data
         data['did'] = '1'
         data['door'] = ''
-        data['fun18'] = '637'
+        data['fun18'] = '925'
         data['men6'] = 'a'
         data['ptopid'] = self.ptopid
         data['sid'] = self.sid
@@ -136,7 +136,7 @@ class Jkdk:
         form = {
             'did': '1',
             'men6': 'a',
-            'fun18': '637',
+            'fun18': '925',
             'ptopid': self.ptopid,
             'sid': self.sid,
         }
@@ -174,7 +174,7 @@ class Jkdk:
         self.form['myvs_26'] = '2'
         self.form['did'] = '2'
         self.form['men6'] = 'a'
-        self.form['fun18'] = '637'
+        self.form['fun18'] = '925'
         self.form['ptopid'] = self.ptopid
         self.form['sid'] = self.sid
         self.form['sheng6'] = ''
