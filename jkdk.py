@@ -114,7 +114,7 @@ class Jkdk:
     # get fun18 value
     def jkdk2(self, session) -> bool:
         headers = self.headers
-        headers['Referer'] = 'self.src'
+        headers['Referer'] = self.src
         page = session.get(self.src2.format(ptosid=self.ptopid, sid=self.sid))
         text = self.encode(page)
         bs4 = BeautifulSoup(text, 'lxml')
