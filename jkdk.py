@@ -214,9 +214,7 @@ class Jkdk:
         body = bs4.find('form', attrs={'name': 'myform52'})
 
         text = body.get_text()
-
-        output = re.findall('感谢你今日上报健康状况', text)
-
+        output = re.findall('感谢', text)
         if len(output):
             print('好耶')
             if self.key is not None:
