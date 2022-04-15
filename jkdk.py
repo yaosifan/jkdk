@@ -197,8 +197,8 @@ class Jkdk:
         self.form2['sid'] = self.sid
         self.form2['sheng6'] = ''
         self.form2['shi6'] = ''
-        self.form2['jingdu'] = '113.631400'
-        self.form2['weidu'] = '34.753400'
+        self.form2['jingdu'] = '113.534090'
+        self.form2['weidu'] = '34.813699'
 
     def jkdk5(self, session) -> bool:
 
