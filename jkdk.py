@@ -16,7 +16,7 @@ class Jkdk:
         self.province = province
         self.city = city
         self.position = position
-        self.url = 'https://service-rnuqqxkb-1300650038.sh.apigw.tencentcs.com/release/getuid'
+        self.url = 'https://jkdk-zzu-jkdk-rzitjiielh.cn-hangzhou.fcapp.run//getuid'
 
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0',
