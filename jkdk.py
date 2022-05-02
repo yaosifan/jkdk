@@ -71,11 +71,12 @@ class Jkdk:
     def ifSigned(self, body) -> bool:
         sign = body.find('span')
         text = sign.contents[0]
-        # 少考虑了填报不成功的情况
-        if text == '今日您还没有填报过' or text == '今日您未成功填报过，请重新上报':
-            return False
-        else:
+        print(f'text={text}')
+        # 解决有时候乱码的情况
+        if text == '今日您已经填报过了':
             return True
+        else:
+            return False
 
     def jkdk1(self, session):
         try:
