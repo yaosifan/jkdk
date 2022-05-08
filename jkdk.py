@@ -116,8 +116,11 @@ class Jkdk:
     def jkdk2(self, session) -> bool:
         headers = self.headers
         headers['Referer'] = self.src
-        page = session.get(self.src2.format(ptosid=self.ptopid, sid=self.sid))
+        page = session.get(self.src2.format(
+            ptosid=self.ptopid, sid=self.sid), headers=headers)
         text = self.encode(page)
+        with open('test2.html', 'w') as f:
+            f.write(text)
         bs4 = BeautifulSoup(text, 'lxml')
         body = bs4.find('form', attrs={'name': "myform52"})
         hidden = body.find_all(name='input', attrs={'type': 'hidden'})
@@ -200,6 +203,7 @@ class Jkdk:
         self.form2['shi6'] = ''
         self.form2['jingdu'] = '113.534090'
         self.form2['weidu'] = '34.813699'
+        self.form2['myvs_9'] = 'y'
 
     def jkdk5(self, session) -> bool:
 
