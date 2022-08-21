@@ -32,7 +32,7 @@
 
 ![settings](./images/settings.png)
 
-3. 添加8个仓库密钥 username、password、province、city、position，分别表示学号、密码、省份、城市、具体位置、疫苗接种情况以及经度、纬度。如果想要使用微信通知打卡情况，步骤也在后面。
+3. 添加8个仓库密钥 username、password、province、city、position、myvs_26、jingdu、weidu，分别表示学号、密码、省份、城市、具体位置、疫苗接种情况以及经度、纬度。如果想要使用微信通知打卡情况，步骤也在后面。
 
    
 

@@ -76,8 +76,8 @@ class Jkdk:
         text = sign.contents[0]
         print(f'text={text}')
         # 解决有时候乱码的情况
-        if text == '今日您已经填报过了':
-            return False
+        if '已经' in text:
+            return True
         else:
             return False
 
