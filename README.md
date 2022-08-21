@@ -1,8 +1,4 @@
-# jkdk
-
-## 郑州大学健康打卡自动脚本
-
----
+# 郑州大学健康打卡自动脚本
 
 ### 使用必读
 
@@ -12,13 +8,10 @@
 
 ![update](images/update.png)
 
----
 
-### 目前发现打卡界面记录**IP地址**，不过仍能打卡成功，尚不清楚有何影响。请谨慎使用。
+> 目前发现打卡界面记录**_IP地址_**，不过仍能打卡成功，尚不清楚有何影响。请谨慎使用。
 
----
-
-### 1. 注意：项目启用后60天无更新时，Actions功能会**自动关闭**，届时需要再次手动开启。
+> 注意：项目启用后60天无更新时，Actions功能会**自动关闭**，届时需要再次手动开启。
 
 ---
 
@@ -26,21 +19,21 @@
 
 1. 先把代码整个都clone下来，然后在此基础上自己创建一个github仓库，仓库设置为私人。或者把代码fork到你自己的仓库（不过这样改不了仓库的可见性为私人）
 
-![fork截图](./images/fork.png)
+    ![fork截图](./images/fork.png)
 
 2. 点击settings，找到Secrets
 
-![settings](./images/settings.png)
+    ![settings](./images/settings.png)
 
 3. 添加8个仓库密钥 username、password、province、city、position、myvs_26、jingdu、weidu，分别表示学号、密码、省份、城市、具体位置、疫苗接种情况以及经度、纬度。如果想要使用微信通知打卡情况，步骤也在后面。
 
    
 
-![添加仓库密钥](./images/secret.png)
+    ![添加仓库密钥](./images/secret.png)
 
    
 
-![添加学号](./images/username.png)
+    ![添加学号](./images/username.png)
 
    - 添加**学号**，name必须是username
    - **密码**的添加同理，但name必须是password
